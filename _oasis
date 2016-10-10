@@ -22,4 +22,5 @@ Executable "main"
   Path: example/
   MainIs: main.ml
   CompiledObject: best
+  Install: false
   BuildDepends: furikake, lwt
