@@ -1,0 +1,18 @@
+{
+  "name": "furikake",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "author": { "username": "hoge", "email": "hoge@example.com" },
+  "homepage": null,
+  "synopsis": "test",
+  "package_type": [ "Lib", [ "Oden" ] ],
+  "dependencies": [
+    { "package_name": "re2", "constraints": null },
+    { "package_name": "threads", "constraints": null },
+    { "package_name": "core", "constraints": null },
+    { "package_name": "cohttp.lwt", "constraints": null },
+    { "package_name": "conduit", "constraints": null },
+    { "package_name": "cohttp", "constraints": null },
+    { "package_name": "lwt", "constraints": null }
+  ]
+}
