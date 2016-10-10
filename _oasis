@@ -17,3 +17,9 @@ Library "furikake"
   Modules: Furikake
   CompiledObject: best
   BuildDepends: re2, threads, core, cohttp.lwt, conduit, cohttp, lwt
+
+Executable "main"
+  Path: example/
+  MainIs: main.ml
+  CompiledObject: best
+  BuildDepends: furikake, lwt
