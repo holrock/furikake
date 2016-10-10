@@ -5,7 +5,7 @@
   "author": { "username": "hoge", "email": "hoge@example.com" },
   "homepage": null,
   "synopsis": "test",
-  "package_type": [ "Lib", [ "Oden" ] ],
+  "package_type": [ "Lib", [ "Furikake" ] ],
   "dependencies": [
     { "package_name": "re2", "constraints": null },
     { "package_name": "threads", "constraints": null },

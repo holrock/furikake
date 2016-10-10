@@ -1,1 +1,1 @@
-let () = ignore (Lwt_main.run (Oden.server "x-spam-target"))
+let () = ignore (Lwt_main.run (Furikake.server "x-spam-target"))
